@@ -1,5 +1,5 @@
 {
-    "name": "gheb/docusign-bundle",
+    "name": "kevin-xtn/docusign-bundle",
     "description": "Symfony Bundle for electronic document signature with Docusign",
     "homepage": "https://github.com/GregoireHebert/docusign-bundle",
     "license": "MIT",
@@ -23,7 +23,7 @@
         "email": "gregoire+support-docusign@les-tilleuls.coop"
     },
     "require": {
-        "php": ">=7.2",
+        "php": ">7.2",
         "ext-SimpleXML": "*",
         "docusign/esign-client": "^5.0 || ^6.0",
         "lcobucci/jwt": "^3.3.1 || ^4.0",

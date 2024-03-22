@@ -80,7 +80,7 @@ jobs:
           composer create-project "symfony/skeleton:${SKELETON_VERSION}" flex
           cd flex
           composer config extra.symfony.allow-contrib true
-          composer req gheb/docusign-bundle:dev-${GITHUB_REF#refs/heads/}
+          composer req kevin-xtn/docusign-bundle:dev-${GITHUB_REF#refs/heads/}
 
       - name: Run php-cs-fixer tests
         if: matrix.quality

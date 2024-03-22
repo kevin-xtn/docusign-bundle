@@ -1,7 +1,7 @@
 # Bundle Installation
 
 ```shell
-$ composer require gheb/docusign-bundle
+$ composer require kevin-xtn/docusign-bundle
 ```
 
 ## register the bundle
